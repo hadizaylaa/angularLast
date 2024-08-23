@@ -1,0 +1,96 @@
+  
+  <!-- <div class="col-md-4" class="row" class="card" style="width: 18rem;">
+    <img [src]="CarData.CarImg">
+    <div class="card-body">
+        <h1 class="card-title">{{CarData.CarName}}</h1>
+      <p class="card-text">Model : {{CarData.CarModel}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <a class="list-group-item "routerLink="/RED">{{CarData.CarColor[0]}}</a>
+      <a class="list-group-item"routerLink="/YELLOW">{{CarData.CarColor[1]}}</a>
+    </ul>
+    <div class="card-body">
+      <a href="#" class="card-link">{{CarData.CarPrice}}</a>
+      <a href="#" class="card-link">{{CarData.CarReadMore}}</a>
+    </div>
+  </div>
+
+ -->
+
+<!-- As a link -->
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">CARS SHOPPING BY HADI ZAYLAA</a>
+  </div>
+</nav>
+
+<!-- As a heading -->
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">CARS : </span>
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+  <div class="card-group">
+    <div class="card">
+      <img style="width: 100%;height: 54.5%;" [src]="CarData.CarImg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CAR NAME : {{CarData.CarName}}</h5>
+        <ul class="list-group list-group-flush">
+          <a class="card-title"class="list-group-item">CAR SPEED : {{CarData.CarSeepd}}</a>
+
+          <a class="list-group-item ">Model : {{CarData.CarModel}}</a>
+          <a class="list-group-item"> CAR COLOR : {{CarData.CarColor[1]}}</a>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link"> CAR PRICE : {{CarData.CarPrice}}</a>
+          <a href="#" class="card-link">{{CarData.CarReadMore}}</a>
+        </div> 
+     
+   
+      </div>
+    </div> 
+    <div class="card">
+      <img style="width: 100%;height: 54.5%;" [src]="CarData.CarImg1" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CAR NAME : {{CarData.CarName1}}</h5>
+        <ul class="list-group list-group-flush">
+          <a class="card-title"class="list-group-item">CAR SPEED : {{CarData.CarSeepd1}}</a>
+
+          <a class="list-group-item ">Model : {{CarData.CarModel1}}</a>
+          <a class="list-group-item"> CAR COLOR : {{CarData.CarColor[0]}}</a>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link"> CAR PRICE : {{CarData.CarPrice1}}</a>
+          <a href="#" class="card-link">{{CarData.CarReadMore1}}</a>
+        </div> 
+
+      </div>
+    </div>
+    <div class="card">
+      <img style="width: 100%;height: 54.5%;" [src]="CarData.CarImg2" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">CAR NAME : {{CarData.CarName2}}</h5>
+        <ul class="list-group list-group-flush">
+          <a class="card-title"class="list-group-item">CAR SPEED : {{CarData.CarSeepd2}}</a>
+
+          <a class="list-group-item ">Model : {{CarData.CarModel2}}</a>
+          <a class="list-group-item"> CAR COLOR : {{CarData.CarColor2[0]}}</a>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link"> CAR PRICE : {{CarData.CarPrice2}}</a>
+          <a href="#" class="card-link">{{CarData.CarReadMore2}}</a>
+        </div> 
+
+
+      </div>
+    </div>
+  </div>

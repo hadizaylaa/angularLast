@@ -1,0 +1,20 @@
+img 
+{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+h1
+{
+font-size: 2em;
+margin-bottom: 0,5em;
+}
+p
+{
+    font-size: 1.2em;
+    color: #333;
+}
+a 
+{
+cursor: pointer;
+}

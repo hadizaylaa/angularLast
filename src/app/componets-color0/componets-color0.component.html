@@ -1,0 +1,14 @@
+  <div class="col-md-4" class="row" class="card" style="width: 18rem;">
+    <img [src]="carDATA.CarImg1">
+    <div class="card-body">
+        <h1 class="card-title">{{carDATA.CarName1}}</h1>
+      <p class="card-text"> {{carDATA.CarModel1}}</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <a class="list-group-item"routerLink="/YELLOW">{{carDATA.CarColor1[1]}}</a>
+    </ul>
+    <div class="card-body">
+      <a href="#" class="card-link">{{carDATA.CarPrice1}}</a>
+      <a href="#" class="card-link">{{carDATA.CarReadMore1}}</a>
+    </div>
+  </div>
