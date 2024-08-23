@@ -7,12 +7,12 @@ import { ApiService } from '../api.service';
   styleUrls: ['./componets-color0.component.css']
 })
 export class ComponetsColor0Component implements OnInit {
-  carDATA : any;
-  selectorColor : any;
+  motorcycle : any;
 constructor(private apiservice : ApiService){}
 ngOnInit(): void {
-  this.apiservice.fetchData().subscribe(data => {
-    this.carDATA = data;
+  this.apiservice.fetchData().subscribe(data=>{
+    this.motorcycle = data;
   })
+  }
 }
-}
+
